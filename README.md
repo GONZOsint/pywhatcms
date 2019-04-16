@@ -1,5 +1,7 @@
 ![license](https://img.shields.io/github/license/HA71/pywhatcms.svg?style=popout-square)![pvers](https://img.shields.io/pypi/pyversions/pywhatcms.svg?style=popout-square)![size](https://img.shields.io/github/languages/code-size/HA71/pywhatcms.svg?style=popout-square)![pps](https://img.shields.io/pypi/format/pywhatcms.svg?style=popout-square)
 
+![logo](https://whatcms.org/addons/whatcms/static/icon-f-padded.png )
+
 # PyWhatcms
 Python package for whatcms.com API
 
