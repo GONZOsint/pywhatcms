@@ -10,15 +10,15 @@ pip install pywhatcms
 
 ## Usage
 First of all, import pywhatcms:
-```
+```python
 from pywhatcms import whatcms
 ```
 Query a domain:
-```
+```python
 whatcms('API-KEY', 'blog.underc0de.org')
 ```
 Obtain info:
-```
+```python
 whatcms.name
 whatcms.code
 whatcms.confidence
