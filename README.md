@@ -2,7 +2,7 @@
 
 ![logo](https://whatcms.org/addons/whatcms/static/icon-f-padded.png )
 
-# PyWhatcms
+# PyWhatCMS
 Python package for whatcms.com API
 
 The package provides a simple way to use the whatcms.org API for detecting 467 different Content Management Systems
