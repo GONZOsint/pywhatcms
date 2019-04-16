@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pywhatcms
+Version: 1.0.6
+Summary: Unofficial WhatCMS API package
+Home-page: https://github.com/HA71/pywhatcms
+Author: HATI
+Author-email: bisha@protonmail.com
+License: UNKNOWN
+Description: # PyWhatcms
+        Python package for whatcms.com API
+        
+        The package provides a simple way to use the whatcms.org API for detecting 467 different Content Management Systems
+        
+        ## Installation
+        ```
+        pip install pywhatcms
+        ```
+        
+        ## Usage
+        First of all, import pywhatcms:
+        ```
+        from pywhatcms import whatcms
+        ```
+        Query a domain:
+        ```
+        whatcms('API-KEY', 'blog.underc0de.org')
+        ```
+        Obtain info:
+        ```
+        whatcms.name
+        whatcms.code
+        whatcms.confidence
+        whatcms.cms_url
+        whatcms.version
+        whatcms.msg
+        whatcms.id
+        whatcms.request
+        whatcms.request_web
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
