@@ -5,7 +5,7 @@
 # PyWhatCMS
 Python package for whatcms.com API
 
-The package provides a simple way to use the [whatcms.org](whatcms.org) API for detecting 467 different Content Management Systems (CMS)
+The package provides a simple way to use the [whatcms.org](https://whatcms.org) API for detecting 467 different Content Management Systems (CMS)
 
 ## Installation
 ```
@@ -24,12 +24,13 @@ whatcms('API-KEY', 'blog.underc0de.org')
 
 Obtain info:
 ```python
-whatcms.name
 whatcms.code
+whatcms.msg
+
+whatcms.name
+whatcms.version
 whatcms.confidence
 whatcms.cms_url
-whatcms.version
-whatcms.msg
 whatcms.id
 whatcms.request
 whatcms.request_web
